@@ -166,6 +166,12 @@ body {
     margin-bottom: 80px;
 }
 
+.jq-selectbox__select:hover,
+:active {
+    background: none;
+    box-shadow: none;
+}
+
 .menu-categories {
     display: flex;
     justify-content: space-around;
@@ -1164,12 +1170,12 @@ body {
     height: 0;
     border: none;
 }
-
+/* 
 .jq-selectbox__select:hover,
 :active {
-    background: transparent;
+    background: none;
     box-shadow: none;
-}
+} */
 
 .jq-selectbox.focused .jq-selectbox__select {
     border: none;
