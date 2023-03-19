@@ -372,7 +372,8 @@ body {
 }
 
 .sale-item__img {
-    object-fit: contain;
+    max-width: fit-content;
+    margin: 0 auto;
 }
 
 .search__tabs {
